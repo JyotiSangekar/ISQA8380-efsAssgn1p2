@@ -89,7 +89,7 @@ DATABASES = {
         'NAME': 'ddg8bc0uc2ugcs',
         'USER': 'wlmigdpfnbqpwu',
         'PASSWORD': '4c1f6246d2f525055e81d2db975cf2d50b0dd692d5a53390d6c9eafed6038860',
-        'HOST': 'postgres://wlmigdpfnbqpwu:4c1f6246d2f525055e81d2db975cf2d50b0dd692d5a53390d6c9eafed6038860@ec2-54-235-220-220.compute-1.amazonaws.com:5432/ddg8bc0uc2ugcs',
+        'HOST': 'ec2-54-235-220-220.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
