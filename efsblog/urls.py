@@ -23,11 +23,12 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.contrib.auth import views
+from django.contrib.auth.views import login
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('portfolio.urls', namespace='portfolio')),
-    url(r'^accounts/profile/$', views.profile, name='profile'),
+    url(r'^accounts/login/$', login),
     url(r'^accounts/login/$', views.login, name='login'),
     url(r'^accounts/logout/$', views.logout, name='logout', kwargs={'next_page': '/'}),
 ]
