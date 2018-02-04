@@ -18,6 +18,5 @@ class StockForm(forms.ModelForm):
 class InvestmentForm(forms.ModelForm):
     class Meta:
         model = Investment
-        fields = (
-            'customer', 'category', 'description', 'acquired_value', 'acquired_date', 'recent_value',
+        fields = ('customer', 'category', 'description', 'acquired_value', 'acquired_date', 'recent_value',
             'recent_date',)
