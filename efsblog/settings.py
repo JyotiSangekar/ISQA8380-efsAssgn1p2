@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'uotbu0r$ttyt)f4s-gz###go=$l-_95_o2@gn=+cw(2#(&oysg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'efsblog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ddg8bc0uc2ugcs',
-        'USER': 'wlmigdpfnbqpwu',
-        'PASSWORD': '4c1f6246d2f525055e81d2db975cf2d50b0dd692d5a53390d6c9eafed6038860',
-        'HOST': 'ec2-54-235-220-220.compute-1.amazonaws.com',
+        'NAME': 'd6fpaf53141lsh',
+        'USER': 'wsfzesulomdoey',
+        'PASSWORD': '6d93b7523b89c09848678f137abf302f20c1e8682fe8a7ea6e41d8bd62106523',
+        'HOST': 'ec2-54-83-203-198.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
